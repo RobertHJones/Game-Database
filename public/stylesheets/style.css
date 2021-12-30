@@ -16,22 +16,31 @@ h2 {
 }
 
 #game-input {
-  margin-left: 300px;
+  margin-left: 30px;
   margin-top: 30px;
   height: 30px;
-  width: 400px;
+  width: 300px;
 }
 
-#game-button {
+#year-input {
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 30px;
+  width: 200px;
+}
+
+#game-button,
+#year-button {
   height: 40px;
-  width: 300px;
-  margin-left: 355px;
+  width: 200px;
+  margin-left: 55px;
   font-family: "Yu Gothic", Arial;
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
 
-#game-button:hover {
+#game-button:hover,
+#year-button:hover {
   background-color: white;
   font-family: Arial;
 }
@@ -45,7 +54,7 @@ h2 {
 }
 
 .label {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .thegames {

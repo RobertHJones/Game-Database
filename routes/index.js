@@ -58,7 +58,7 @@ router.get("/games", async function (req, res) {
     const searchResults = await getGameByYear(year);
     res.json({
       success: true,
-      message: `Searched game developers by ${year}`,
+      message: `Searched game year by ${year}`,
       payload: searchResults,
     });
     return;
@@ -68,7 +68,7 @@ router.get("/games", async function (req, res) {
     const searchResults = await getGameByRating(rating);
     res.json({
       success: true,
-      message: `Searched game developers by ${rating}`,
+      message: `Searched game ratings by ${rating}`,
       payload: searchResults,
     });
     return;

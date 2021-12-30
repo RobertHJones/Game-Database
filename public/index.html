@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Database</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <section id="game-section">
+        <h2 class="section-heading">Welcome to the Games Database</h2>
+        <input aria-label="game-input" id="game-input" />
+        <br>
+        <br>
+        <button id="game-button">Search by name</button>
+        <a id="game-label"></a>
+        <label for="genres" class="label">Choose a genre</label>
+  <select id="genres" name="genres">
+    <option value="blank"></option>
+    <option value="Real Time Strategy">Real Time Strategy</option>
+    <option value="First Person Shooter">First Person Shooter</option>
+    <option value="Fighting">Fighting</option>
+    <option value="Sandbox">Sandbox</option>
+    <option value="RPG">RPG</option>
+    <option value="Action">Action</option>
+    <option value="Sports Simulation">Sports Simulation</option>
+    <option value="Puzzle">Puzzle</option>
+  </select>
+  <label for="ratings" class="label">Choose Rob's rating (%)</label>
+  <select id="ratings" name="ratings">
+    <option value="blank"></option>
+    <option value="80-100">80-100</option>
+    <option value="60-80">60-80</option>
+    <option value="40-60">40-60</option>
+    <option value="20-40">20-40</option>
+    <option value="0-20">0-20</option>
+  </select>  
+  <br>
+  <table class ="thegames">
+  <div class="tableone">
+    <th id="Title">Title</th>
+        <th id="Rating">Rating</th>
+        <th id="Genre">Genre</th>
+        <th id="Year">Year</th>
+        <th id="Developer">Developer</th>
+  </div>
+  </table>
+  <table></table>
+  <tr></tr>
+  </section>
+      
+        <div class="game-details">
+        <img class="game-photo"></img>
+        </div>
+        <div id ="whitebox"></div>
+    <div id ="whitebox2"></div>
+    <div id ="whitebox3"></div>
+    <img id="thinker"
+      src="https://live.staticflickr.com/6030/5966894496_cdfeb202cc_b.jpg"
+      alt="The Thinker"
+    />
+    <div id="inputs">
+      <input id="titleinput" placeholder="Title"/>
+      <input id="ratinginput" placeholder="Rating"/>
+      <input id="genreinput" placeholder="Genre" />
+      <input id="yearinput" placeholder="Year" />
+      <input id="developerinput" placeholder="Developer" />
+      <button id="submit">Submit</button>
+      <button id="getleaderboard">Get Games</button>
+    </div>
+    <table id="table">
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+     
+    </table>
+    
+    <script src="javascript/main.js"></script>
+  </body>
+</html>

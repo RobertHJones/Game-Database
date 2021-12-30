@@ -1,0 +1,114 @@
+body {
+  background-color: #191308;
+  /* f4ebd0 */
+  font-family: "Yu Gothic", Arial;
+  color: rgb(250, 243, 243);
+  font-size: 1.3em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: rgb(250, 243, 243);
+  background: url(https://images.unsplash.com/photo-1511512578047-dfb367046420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+  padding: 200px;
+  /* background-size: 100%; */
+}
+
+#game-input {
+  margin-left: 300px;
+  margin-top: 30px;
+  height: 30px;
+  width: 400px;
+}
+
+#game-button {
+  height: 40px;
+  width: 300px;
+  margin-left: 355px;
+  font-family: "Yu Gothic", Arial;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+#game-button:hover {
+  background-color: white;
+  font-family: Arial;
+}
+
+#genres,
+#ratings {
+  height: 30px;
+  width: 250px;
+  font-family: "Yu Gothic", Arial;
+  font-size: 1.2rem;
+}
+
+.label {
+  font-size: 1.2rem;
+}
+
+.thegames {
+  /* display: flex;
+  justify-content: space-between; */
+  font-size: 1.7em;
+  /* color: rgb(250, 243, 243);
+  margin-top: 10px; */
+}
+
+th,
+td {
+  width: 250px;
+  text-align: center;
+  border: 1px solid rgb(250, 243, 243);
+  padding: 5px;
+}
+
+.game-photo {
+  height: 400px;
+  width: 400px;
+  border-radius: 20%;
+  margin-left: 670px;
+  background: url(ttps://identity-mag.com/wp-content/uploads/2016/08/hangry_feature.jpg);
+  border: 20px solid rgba(74, 74, 74, 0.075);
+}
+
+.game-details {
+  font-size: 3rem;
+  display: flex;
+  justify-content: right;
+}
+
+#thinker {
+  width: 500px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 10%;
+}
+
+#whitebox {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(41, 94, 179);
+  border-radius: 20%;
+  text-align: center;
+  padding: 50px;
+  font-size: 1.1rem;
+}
+#whitebox2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(41, 94, 179);
+  border-radius: 50%;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+#whitebox3 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(41, 94, 179);
+  border-radius: 50%;
+  margin-left: 250px;
+  margin-top: 10px;
+}

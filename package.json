@@ -1,0 +1,25 @@
+{
+  "name": "game-database",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config ./bin/www.js",
+    "dev": "nodemon -r dotenv/config ./bin/www.js",
+    "dbcreatetable": "node -r dotenv/config ./db/scripts/createTable.js",
+    "dbpopulatetable": "node -r dotenv/config ./db/scripts/populateTable.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^0.29.0",
+    "morgan": "~1.9.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

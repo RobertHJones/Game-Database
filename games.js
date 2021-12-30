@@ -104,4 +104,16 @@ export const games = [
     comments: "Sporadically hilariously bad, mostly just bad",
     image: "https://i.kym-cdn.com/entries/icons/facebook/000/019/440/rats.jpg",
   },
+  {
+    id: 10,
+    title: "Crash Bandicoot",
+    rating: 85,
+    genre: "3D Platformer",
+    year: 2018,
+    developer: "Vicarious Visions",
+    comments:
+      "Classic platformer touched up with modern graphics. The difficulty spike was occasionally frustrating otherwise this was a total blast. Looks gorgeous and the music is awesome",
+    image:
+      "https://www.gamespot.com/a/uploads/scale_landscape/1406/14063904/3254907-5980009233-375519933269653",
+  },
 ];

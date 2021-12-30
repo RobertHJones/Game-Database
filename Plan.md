@@ -26,13 +26,10 @@ Also filtering, searching, adding new games etc if I can
 
 Also some design, my thoughts appearing in white bubble above the thinker's head etc
 
-1a. Sort out genre/rating buttons, make em look better
-
 1. Make old search results disappear
-2. Get search by genre working, do the same for rating/change this field
-3. Post/put/delete requests
+2. Work out what I want to do with rating - <80 num >60 for example or if it's a different search
+3. Post/put/delete requests - delete is easy but not much point, try to get post working
 4. Make it look better, hover effects etc
-5. Remove extra stuff from bottom
-6. Sort out git issues. Make new repo and push to there?
+5. Remove extra stuff from bottom, post request visuals
 
 Tests

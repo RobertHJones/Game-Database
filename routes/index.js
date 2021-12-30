@@ -13,7 +13,7 @@ import {
   getGameByDeveloper,
   getGameByYear,
   getGameByRating,
-} from "../models/scores.js";
+} from "../models/functions.js";
 
 /* GET users listing. */
 router.get("/", function (req, res, next) {

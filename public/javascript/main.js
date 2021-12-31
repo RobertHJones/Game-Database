@@ -41,7 +41,9 @@ async function getGame() {
   let game = gameInput.value;
   let genre = genreInput.value;
   let band = ratingInput.value;
-  const response = await fetch(`${url}/games/?band=${band}`); //title=${game}&genre=${genre}&
+  const response = await fetch(
+    `${url}/games/?title=${game}&genre=${genre}&band=${band}`
+  ); //title=${game}&genre=${genre}&
   const { payload } = await response.json();
   gameImage.src = payload[0].image;
   whiteBox.innerHTML = "";

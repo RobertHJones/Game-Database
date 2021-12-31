@@ -11,20 +11,22 @@
     <section id="game-section">
         <h2 class="section-heading">Welcome to the Games Database</h2>
         <input aria-label="game-input" id="game-input" placeholder="Title"/>
-        <button id="game-button">Search</button>
         <a id="game-label"></a>
         <label for="genres" class="label">Choose a genre</label>
   <select id="genres" name="genres">
     <option value="blank"></option>
-    <option value="Real Time Strategy">Real Time Strategy</option>
-    <option value="First Person Shooter">First Person Shooter</option>
-    <option value="Fighting">Fighting</option>
-    <option value="Sandbox">Sandbox</option>
-    <option value="RPG">RPG</option>
     <option value="Action">Action</option>
-    <option value="Sports Simulation">Sports Simulation</option>
-    <option value="Puzzle">Puzzle</option>
+    <option value="Adventure">Adventure</option>
+    <option value="Casual">Casual</option>
+    <option value="Fighting">Fighting</option>
+    <option value="First Person Shooter">First Person Shooter</option>
     <option value="God Simulator">God Simulator</option>
+    <option value="Puzzle">Puzzle</option>
+    <option value="Racing">Racing</option>
+    <option value="Real Time Strategy">Real Time Strategy</option>
+    <option value="RPG">RPG</option>
+    <option value="Sandbox">Sandbox</option>
+    <option value="Sports Simulation">Sports Simulation</option>
   </select>
   <label for="ratings" class="label">Choose Rob's rating (%)</label>
   <select id="ratings" name="ratings">
@@ -35,6 +37,7 @@
     <option value="20-40">20-40</option>
     <option value="0-20">0-20</option>
   </select>  
+  <button id="game-button">Search</button>
   <br>
   <table class ="thegames">
   <div class="tableone">
@@ -45,8 +48,6 @@
         <th id="Developer">Developer</th>
   </div>
   </table>
-  <table></table>
-  <tr></tr>
   </section>
       
         <div class="game-details">
@@ -66,9 +67,9 @@
       <input id="yearinput" placeholder="Year" />
       <input id="developerinput" placeholder="Developer" />
       <button id="submit">Submit</button>
-      <!-- <button id="getleaderboard">Get Games</button> -->
+      
     </div>
-    <!-- <table id="table"> -->
+    
       <tr>
         <th></th>
         <th></th>

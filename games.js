@@ -189,4 +189,66 @@ export const games = [
     image:
       "https://www.gamespot.com/a/uploads/scale_super/1560/15603561/3217152-bulletstormfce_screenshot07.jpg",
   },
+  {
+    id: 16,
+    title: "Coffin Dodgers",
+    rating: 48,
+    band: "40-60",
+    genre: "Racing",
+    year: 2015,
+    developer: "Milky Tea Studios",
+    comments:
+      "Fairly crappy mario kart clone with a vaguely amusing premise. Graphics are weak and the gameplay mechanics aren't anything to shout about. Very short",
+    image:
+      "https://image.api.playstation.com/cdn/EP4459/CUSA04036_00/b79U2aagDMvgl7FsE5PtyStdH7OzegH3.png",
+  },
+  {
+    id: 17,
+    title: "Crankies Workshop",
+    rating: 11,
+    band: "0-20",
+    genre: "Casual",
+    year: 2017,
+    developer: "Crankies Smartworks",
+    comments:
+      "Hilarious for about 30 seconds. A true or false quiz game hosted by Windows Narrator dressed in a cartoon robot's body. Except it just tells you that you're wrong 80% of the time without any bearing on the actual answer",
+    image: "https://i.ytimg.com/vi/LBRFYJ1NhWQ/hqdefault.jpg",
+  },
+  {
+    id: 18,
+    title: "Nosferatu",
+    rating: 63,
+    band: "60-80",
+    genre: "First Person Shooter",
+    year: 2003,
+    developer: "Idol FX",
+    comments: "The holy water is OP",
+    image:
+      "https://static.wikia.nocookie.net/nosferatuthewrathofmalachi/images/2/28/2011-06-30_00167.jpg/revision/latest?cb=20110630111946",
+  },
+  {
+    id: 19,
+    title: "Fahrenheit: Indigo Prophecy",
+    rating: 85,
+    band: "80-100",
+    genre: "Adventure",
+    year: 2005,
+    developer: "Quantic Dream",
+    comments:
+      "Surprisingly good. Gameplay is mostly just quicktime events and walking around but still feels exciting. Great story, characters, atmosphere etc. I really enjoyed this",
+    image:
+      "https://cdn.akamai.steamstatic.com/steam/apps/312840/ss_857d61b4bfc38e16931c00547fc52e865fdb91d1.1920x1080.jpg?t=1574281669",
+  },
+  {
+    id: 20,
+    title: "Flatout 3",
+    rating: 19,
+    band: "0-20",
+    genre: "Racing",
+    year: 2011,
+    developer: "Team 6 Studios",
+    comments: "Second lowest rated game on Steam and it's easy to see why",
+    image:
+      "https://www.newgamenetwork.com/images/uploads/gallery/Flatout3/Flatout%202012-01-23%2022-44-12-99.jpg",
+  },
 ];

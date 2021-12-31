@@ -13,6 +13,7 @@ import {
   getGameByDeveloper,
   getGameByYear,
   getGameByRating,
+  getGameByBand,
 } from "../models/functions.js";
 
 /* GET users listing. */
@@ -22,7 +23,7 @@ router.get("/", function (req, res, next) {
 
 // GET ALL GAMES OR SEARCH
 router.get("/games", async function (req, res) {
-  const { title, rating, genre, year, developer, comments } = req.query;
+  const { title, rating, band, genre, year, developer, comments } = req.query;
 
   if (title) {
     const searchResults = await getGameByTitle(title);
@@ -69,6 +70,16 @@ router.get("/games", async function (req, res) {
     res.json({
       success: true,
       message: `Searched game ratings by ${rating}`,
+      payload: searchResults,
+    });
+    return;
+  }
+
+  if (band) {
+    const searchResults = await getGameByBand(band);
+    res.json({
+      success: true,
+      message: `Searched game rating by ${band}`,
       payload: searchResults,
     });
     return;

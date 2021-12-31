@@ -30,6 +30,6 @@ Also some design, my thoughts appearing in white bubble above the thinker's head
 2. Work out what I want to do with rating - <80 num >60 for example or if it's a different search
 3. Post/put/delete requests - delete is easy but not much point, try to get post working
 4. Make it look better, hover effects etc
-5. Remove extra stuff from bottom, post request visuals
+5. Post request visuals
 
 Tests

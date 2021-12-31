@@ -45,6 +45,11 @@ export async function getGameByRating(rating) {
   return data.rows;
 }
 
+export async function getGameByBand(band) {
+  const data = await query(`SELECT * FROM games WHERE band = $1;`, [band]);
+  return data.rows;
+}
+
 // ADD NEW GAME
 export async function addNewGame(newGame) {
   const data = await query(`INSERT INTO games (title) VALUES ($1);`, [newGame]);

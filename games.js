@@ -126,4 +126,67 @@ export const games = [
     image:
       "https://www.gamespot.com/a/uploads/scale_landscape/1406/14063904/3254907-5980009233-375519933269653",
   },
+  {
+    id: 11,
+    title: "Beat Hazard",
+    rating: 59,
+    band: "40-60",
+    genre: "Action",
+    year: 2009,
+    developer: "Cold Beam Games",
+    comments: "Fun, but not deep or clever",
+    image:
+      "https://www.allkeyshop.com/blog/wp-content/uploads/beat-hazard-800x600-2.jpg",
+  },
+  {
+    id: 12,
+    title: "100ft Robot Golf",
+    rating: 37,
+    band: "20-40",
+    genre: "Sports Simulation",
+    year: 2017,
+    developer: "No Goblin",
+    comments:
+      "Nice idea but not very fun. Looks ugly, dumb plot and the quips from the commentators range from tedious to infuriating. I had a bit of fun with it for a while then gave up ",
+    image: "https://v1cdn.destructoid.com/golf3-noscale.jpg",
+  },
+  {
+    id: 13,
+    title: "Black and White",
+    rating: 93,
+    band: "80-100",
+    genre: "God Simulator",
+    year: 2001,
+    developer: "Lionhead Studios",
+    comments:
+      "Highly original and innovative game from Peter Molyneux, some small flaws don't detract very much and this remains a standout  in the history of gaming",
+    image:
+      "http://www.feralinteractive.com/data/games/blackwhiteplat/screenshots/01.jpg",
+  },
+  {
+    id: 14,
+    title: "Brilliant Bob",
+    rating: 26,
+    band: "20-40",
+    genre: "3D Platformer",
+    year: 2015,
+    developer: "Zonitron Productions",
+    comments:
+      "Might have been some enjoyment to find here if the controls and gameplay weren't so terrible. As it is, this game is excrutiating within five minutes",
+    image:
+      "https://steamuserimages-a.akamaihd.net/ugc/531765103961258063/EA8611C0E56BEDDF6CE7CE7471300F61606706E5/?imw=512&imh=512&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true",
+  },
+  {
+    id: 15,
+    title: "Bulletstorm",
+    rating: 89,
+    band: "80-100",
+    genre: "First Person Shooter",
+    year: 2011,
+    developer: "People Can Fly",
+    comments:
+      "Extremely underrated and innovative FPS with a surprisingly good story, enhanced by strong voice acting and gorgeous graphics. Gets a little stale towards the end",
+    image:
+      "https://www.gamespot.com/a/uploads/scale_super/1560/15603561/3217152-bulletstormfce_screenshot07.jpg",
+  },
 ];

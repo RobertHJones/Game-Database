@@ -314,4 +314,80 @@ export const games = [
     image:
       "https://cdn.akamai.steamstatic.com/steam/apps/297000/ss_548367faf1cfa549c88585cb9b01f13b05b05ab7.1920x1080.jpg?t=1602603275",
   },
+  {
+    id: 26,
+    title: "Max Payne",
+    rating: 85,
+    band: "80-100",
+    genre: "Third Person Action",
+    year: 2001,
+    developer: "Remedy Entertainment",
+    comments:
+      "Very slick game with a powerful story, strong voice acting, bullet time which acts as more than a gimmick and Sam Lake's 'confused and constipated' face. Sick",
+    image:
+      "https://www.gamespot.com/a/uploads/scale_landscape/1601/16018044/3858890-max-payne-face.jpg",
+  },
+  {
+    id: 27,
+    title: "Miasmata",
+    rating: 44,
+    band: "40-60",
+    genre: "First Person Puzzle",
+    year: 2012,
+    developer: "IonFx",
+    comments:
+      "Very slow. Recommended for people who like the idea of distilling their own water to survive etc. Looks great though",
+    image: "https://leviathyn.com/wp-content/uploads/2012/12/Miasmata-2.jpg",
+  },
+  {
+    id: 28,
+    title: "Mutant Year Zero: Road to Eden",
+    rating: 85,
+    band: "80-100",
+    genre: "Turn Based Strategy",
+    year: 2018,
+    developer: "The Bearded Ladies",
+    comments:
+      "This really blew me away. It looks gorgeous, is both surpisingly funny and powerful, and was seriously addictive. Sequel pls",
+    image:
+      "https://cdn1.epicgames.com/undefined/offer/EGS_THEBEARDEDLADIES_MUTANTYEARZERO_S2_COPSHOT-1280x1440-78da0159ae1cff2af0b286dcfa5bf30a.jpg",
+  },
+  {
+    id: 29,
+    title: "Octodad",
+    rating: 74,
+    band: "60-80",
+    genre: "3D Platformer",
+    year: 2014,
+    developer: "Young Horses",
+    comments:
+      "Very amusing and not as gimmicky as expected. Controls are intentionally horrible, which is the premise of the game pretty much. Occasionally frustrating but I enjoyed it plenty",
+    image: "https://octodad.com/files/og_image.jpg",
+  },
+  {
+    id: 30,
+    title: "Pokemon Silver",
+    rating: 81,
+    band: "80-100",
+    genre: "RPG",
+    year: 2001,
+    developer: "Game Freak",
+    comments:
+      "Improved on a lot of defects from the original although less iconic. Still one of the best in the series, speaking as someone who hasn't played any other games in the series…",
+    image:
+      "https://assets.nintendo.com/image/upload/f_auto,q_auto,w_585/ncom/en_US/games/3ds/p/pokemon-silver-version-3ds/screenshot-gallery/screenshot10?v=2021120410",
+  },
+  {
+    id: 31,
+    title: "Resident Evil 7",
+    rating: 89,
+    band: "80-100",
+    genre: "First Person Shooter",
+    year: 2017,
+    developer: "Capcom",
+    comments:
+      "Easily the scariest Res Evil game. The atmosphere created is vividly grotesque, sound design and minimal soundtrack are perfect, as are the freaky Baker family. Amazing graphics too",
+    image:
+      "https://www.destructoid.com/wp-content/uploads/2021/10/resident-evil-7-biohazard-10-million.jpg",
+  },
 ];

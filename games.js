@@ -211,7 +211,7 @@ export const games = [
     year: 2017,
     developer: "Crankies Smartworks",
     comments:
-      "Hilarious for about 30 seconds. A true or false quiz game hosted by Windows Narrator dressed in a cartoon robot's body. Except it just tells you that you're wrong 80% of the time without any bearing on the actual answer",
+      "Hilarious for about 30 seconds. Quiz game hosted by Windows Narrator dressed in a cartoon robot's body. It tells you you're wrong 80% of the time without any bearing on the real answer",
     image: "https://i.ytimg.com/vi/LBRFYJ1NhWQ/hqdefault.jpg",
   },
   {
@@ -224,7 +224,7 @@ export const games = [
     developer: "Idol FX",
     comments: "The holy water is OP",
     image:
-      "https://static.wikia.nocookie.net/nosferatuthewrathofmalachi/images/2/28/2011-06-30_00167.jpg/revision/latest?cb=20110630111946",
+      "https://cdn.akamai.steamstatic.com/steam/apps/283290/ss_100e3309f5bac4412a4b4973544e3e297d6b9ac6.1920x1080.jpg?t=1530529924",
   },
   {
     id: 19,

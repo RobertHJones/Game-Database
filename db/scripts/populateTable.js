@@ -5,7 +5,6 @@ const sqlString = `INSERT INTO games (title, rating, band, genre, year, develope
 
 async function populateGamesTable() {
   for (let i = 0; i < games.length; i++) {
-    console.log("this is the data", games);
     let { title, rating, band, genre, year, developer, comments, image } =
       games[i];
 
@@ -19,7 +18,6 @@ async function populateGamesTable() {
       comments,
       image,
     ]);
-    console.log(res);
   }
 }
 

@@ -32,7 +32,7 @@ h2 {
 }
 
 #game-button,
-#year-button {
+#submit {
   height: 40px;
   width: 200px;
   margin-left: 55px;
@@ -42,7 +42,7 @@ h2 {
 }
 
 #game-button:hover,
-#year-button:hover {
+#submit:hover {
   background-color: white;
   font-family: Arial;
 }
@@ -124,4 +124,26 @@ td {
   margin-left: 250px;
   margin-bottom: 5px;
   border: solid 2px rgba(252, 252, 255, 0.897);
+}
+
+#titleinput,
+#ratinginput,
+#genreinput,
+#yearinput,
+#developerinput {
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 30px;
+  width: 250px;
+  font-size: 1.3em;
+  font-family: "Yu Gothic", Arial;
+}
+
+#submit-text {
+  text-align: center;
+  font-size: 1.6em;
+}
+#submit-text:hover {
+  text-shadow: 2px 2px #345fd6;
+  font-size: 2em;
 }

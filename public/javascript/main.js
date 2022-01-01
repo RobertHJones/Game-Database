@@ -8,10 +8,12 @@ const ratingInput = document.querySelector("#ratings");
 const gameDetails = document.querySelector(".game-details");
 const gameImage = document.querySelector(".game-photo");
 const theGames = document.querySelector(".thegames");
+const theGamesTable = document.querySelector(".tableone");
 const whiteBox = document.querySelector("#whitebox");
-const tableElement = document.querySelector("td");
+const tableElement = document.querySelectorAll("td");
 const newTitle = document.querySelector("#titleinput");
 const newSubmit = document.querySelector("#submit");
+const tBody = document.querySelector("#tbody");
 
 // select the table section
 const gameTable = document.querySelector("#table");
@@ -23,7 +25,7 @@ function addGames(game) {
   // theGames.appendChild(newLine);
   const listItem = document.createElement("td");
   listItem.innerText = game;
-  theGames.appendChild(listItem);
+  tBody.appendChild(listItem);
 }
 
 // function to add in the comment into the brain thought
@@ -43,11 +45,13 @@ async function getGame() {
   let band = ratingInput.value;
   const response = await fetch(
     `${url}/games/?title=${game}&genre=${genre}&band=${band}`
-  ); //title=${game}&genre=${genre}&
+  ); //title=${game}&genre=${genre}&band=${band}
   const { payload } = await response.json();
   gameImage.src = payload[0].image;
   whiteBox.innerHTML = "";
-  // theGames.innerHTML = "";
+  while (tBody.hasChildNodes()) {
+    tBody.removeChild(tBody.lastChild);
+  }
   for (let i = 0; i < payload.length; i++) {
     addGames(payload[i].title);
     addGames(payload[i].rating);
@@ -55,7 +59,7 @@ async function getGame() {
     addGames(payload[i].year);
     addGames(payload[i].developer);
     const newLine = document.createElement("tr");
-    theGames.appendChild(newLine);
+    tBody.appendChild(newLine);
   }
   addComment(payload[0].comments);
 }

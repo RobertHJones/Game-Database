@@ -251,4 +251,30 @@ export const games = [
     image:
       "https://www.newgamenetwork.com/images/uploads/gallery/Flatout3/Flatout%202012-01-23%2022-44-12-99.jpg",
   },
+  {
+    id: 21,
+    title: "Ghost Master",
+    rating: 56,
+    band: "40-60",
+    genre: "Puzzle",
+    year: 2003,
+    developer: "Sick Puppies",
+    comments:
+      "Nice concept but pretty unremarkable game. Gets a bit more entertaining when you have the puny mortals running around in terror",
+    image:
+      "https://images.gog-statics.com/65b84154cbdf62ea4ea42c8cabd0ce021bc67977e6bee9203244dba9a1f1d3d1_product_card_v2_mobile_slider_639.jpg",
+  },
+  {
+    id: 22,
+    title: "Grimm",
+    rating: 48,
+    band: "40-60",
+    genre: "3D Platformer",
+    year: 2014,
+    developer: "Spicy Horse Games",
+    comments:
+      "American McGee made this? Seriously? It's kinda fun but looks hideous and the gameplay is incredibly basic. Not really worth bothering with. Voice acting was fairly amusing. Grimm's...stinky",
+    image:
+      "https://cdn.akamai.steamstatic.com/steam/apps/252150/ss_86dd4b8e6346cd74ae4d6f93adaf5255eb4619e6.1920x1080.jpg?t=1447358666",
+  },
 ];

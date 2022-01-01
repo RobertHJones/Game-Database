@@ -277,4 +277,41 @@ export const games = [
     image:
       "https://cdn.akamai.steamstatic.com/steam/apps/252150/ss_86dd4b8e6346cd74ae4d6f93adaf5255eb4619e6.1920x1080.jpg?t=1447358666",
   },
+  {
+    id: 23,
+    title: "Half Life 2",
+    rating: 100,
+    band: "80-100",
+    genre: "First Person Shooter",
+    year: 2004,
+    developer: "Valve Corporation",
+    comments: "Other best game ever made",
+    image:
+      "https://cdn.gamer-network.net/2021/articles/2021-10-19-19-16/valve-quietly-readying-half-life-2-for-steam-deck-with-big-new-beta-branch-update-1634667399625.jpg/EG11/thumbnail/1920x1077/format/jpg/quality/80",
+  },
+  {
+    id: 24,
+    title: "HEDZ",
+    rating: 70,
+    band: "60-80",
+    genre: "Third Person Action",
+    year: 1999,
+    developer: "VIS Entertainment",
+    comments:
+      "I frikkin love this game, not even sure why. Best soundtrack ever. Colourful if blocky graphics but a huge range of characters and a lot of fun",
+    image: "https://obscuritory.com/wp-content/uploads/2018/08/hedz_4.png",
+  },
+  {
+    id: 25,
+    title: "Heroes of Might and Magic 3",
+    rating: 78,
+    band: "60-80",
+    genre: "Turn Based Strategy",
+    year: 1999,
+    developer: "New World Computing",
+    comments:
+      "Classic nerdy fantasy game. Great soundtrack, shame about the story",
+    image:
+      "https://cdn.akamai.steamstatic.com/steam/apps/297000/ss_548367faf1cfa549c88585cb9b01f13b05b05ab7.1920x1080.jpg?t=1602603275",
+  },
 ];

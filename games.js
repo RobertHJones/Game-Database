@@ -390,4 +390,130 @@ export const games = [
     image:
       "https://www.destructoid.com/wp-content/uploads/2021/10/resident-evil-7-biohazard-10-million.jpg",
   },
+  {
+    id: 32,
+    title: "Serious Sam: The Second Encounter",
+    rating: 96,
+    band: "80-100",
+    genre: "First Person Shooter",
+    year: 2002,
+    developer: "Croteam",
+    comments:
+      "Improved on the original with both extra weapons and improved graphics, as well as some new enemies. Jeeeeeez I love this game",
+    image:
+      "https://cdn.videogamesblogger.com/wp-content/uploads/2010/09/serious-sam-hd-the-second-encounter-screenshot.jpg",
+  },
+  {
+    id: 33,
+    title: "Severance Blade of Darkness",
+    rating: 81,
+    band: "80-100",
+    genre: "Third Person Action",
+    year: 2001,
+    developer: "Rebel Act Studios",
+    comments:
+      "Gore. More gore. Lop off your enemies' limbs. Pick up their severed limbs and beat them to death",
+    image:
+      "https://i2.wp.com/uploads.freegogpcgames.com/image/Severance-Blade-of-Darkness.jpg?fit=678%2C381&ssl=1",
+  },
+  {
+    id: 34,
+    title: "Spaceman Sparkles 3",
+    rating: 26,
+    band: "20-40",
+    genre: "3D Platformer",
+    year: 2016,
+    developer: "tjern",
+    comments:
+      "Confusing and weird platformer with awful controls and ugly if sort of original graphics",
+    image:
+      "https://games-cdn.softpedia.com/screenshots/spaceman-sparkles-3-demo_1.jpg",
+  },
+  {
+    id: 35,
+    title: "Stalin Subway: Red Veil",
+    rating: 15,
+    band: "0-20",
+    genre: "First Person Shooter",
+    year: 2006,
+    developer: "Orion Games",
+    comments:
+      "Horrible, unplayable FPS. Turning the music on crashes the game out, levels are nigh on impossible to navigate, it looks hideous, voice acting is lamentable. I could go on",
+    image:
+      "https://www.mobygames.com/images/shots/l/289219-the-stalin-subway-red-veil-windows-screenshot-uh-oh-reinforcements.jpg",
+  },
+  {
+    id: 36,
+    title: "Tales from the Borderlands",
+    rating: 96,
+    band: "80-100",
+    genre: "Adventure",
+    year: 2014,
+    developer: "Telltale Games",
+    comments: "This game is so good I have no words",
+    image:
+      "https://www.playstationlifestyle.net/assets/uploads/gallery/tales-from-the-borderlands-ep-2-atlas-mugged-review/tales-from-the-borderlands_20150317234625.jpg",
+  },
+  {
+    id: 37,
+    title: "Tanaka",
+    rating: 59,
+    band: "40-60",
+    genre: "Racing",
+    year: 1999,
+    developer: "PacificMediaWorks",
+    comments:
+      "What the hell was this game? In depth customisation and huge list of levels, which all looked basically the same",
+    image:
+      "https://www.macintoshrepository.org/_resize.php?w=640&h=480&bg_color=333333&imgenc=ZmlsZc9aXMvdXBsb2Fkcy9zY3JlZW5zaG90cy8xNTg3NDU3OTgzLjYwNHA1ODI1XzJ1MjUyNC0tLi0tdGFuYWthMS5wbmd8d3d3Lm1hY2ludG9zaHJlcG9zaXRvcnkub3JnLzU4MjUtdGFuYWth",
+  },
+  {
+    id: 38,
+    title: "The Dream Machine",
+    rating: 74,
+    band: "60-80",
+    genre: "Adventure",
+    year: 2012,
+    developer: "Cockroach Inc",
+    comments:
+      "Weird trippy adventure game with charming ugly cardboard/clay graphics, a spacey ambient soundtrack and grim subject matter. Very nice but also pretty sad and macabre",
+    image:
+      "https://cdn.nivoli.com/adventuregamers/images/screenshots/24939/dm6c.jpg",
+  },
+  {
+    id: 39,
+    title: "The Magic Circle",
+    rating: 52,
+    band: "40-60",
+    genre: "First Person Puzzle",
+    year: 2015,
+    developer: "Question",
+    comments:
+      "Self-aware game within a game. Interesting idea but annoying dialogue and frustrating game mechanics make this a drag to play",
+    image: "https://i.ytimg.com/vi/rco0jNe6uj0/maxresdefault.jpg",
+  },
+  {
+    id: 40,
+    title: "There's Poop in my Soup",
+    rating: 11,
+    band: "0-20",
+    genre: "Casual",
+    year: 2016,
+    developer: "K Bros Games",
+    comments: "Unfunny waste of time",
+    image:
+      "https://cdn.akamai.steamstatic.com/steam/apps/449540/ss_0e224cb9f5f003e4945ee438dd70834030780276.1920x1080.jpg?t=1631224545",
+  },
+  {
+    id: 41,
+    title: "Total Soccer",
+    rating: 56,
+    band: "40-60",
+    genre: "Sport Simulation",
+    year: 2000,
+    developer: "Live Media",
+    comments:
+      "I say simulation loosely. This game is hilariously bad yet somehow so fun as well",
+    image: "https://i.ytimg.com/vi/I3TZ47rRgwU/maxresdefault.jpg",
+  },
 ];

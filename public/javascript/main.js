@@ -1,4 +1,3 @@
-// select our 'get leaderboard' button
 const url = "http://localhost:3000";
 // const getGameTable = document.querySelector("#getleaderboard");
 const gameButton = document.querySelector("#game-button");
@@ -12,6 +11,10 @@ const theGamesTable = document.querySelector(".tableone");
 const whiteBox = document.querySelector("#whitebox");
 const tableElement = document.querySelectorAll("td");
 const newTitle = document.querySelector("#titleinput");
+const newRating = document.querySelector("#ratinginput");
+const newGenre = document.querySelector("#genreinput");
+const newYear = document.querySelector("#yearinput");
+const newDeveloper = document.querySelector("#developerinput");
 const newSubmit = document.querySelector("#submit");
 const tBody = document.querySelector("#tbody");
 
@@ -67,18 +70,28 @@ async function getGame() {
 // Post request to add new game
 async function post() {
   let title = newTitle.value;
-  const response = await fetch("http://localhost:3000/games/post/json", {
+  let rating = newRating.value;
+  let genre = newGenre.value;
+  let year = newYear.value;
+  let developer = newDeveloper.value;
+
+  const response = await fetch("http://localhost:3000/games", {
     method: "POST",
     headers: {
-      Accept: "application/json",
+      // Accept: "application/json",
       "Content-Type": "application/json",
     },
-    body: `{
-  Title: ${title},
- }`,
+    body: JSON.stringify({
+      title,
+      rating,
+      genre,
+      year,
+      developer,
+    }),
   });
 
   response.json().then((data) => {
     console.log(data);
   });
+  alert(`${title} added to database`);
 }

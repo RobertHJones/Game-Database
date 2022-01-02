@@ -18,6 +18,7 @@ async function populateGamesTable() {
       comments,
       image,
     ]);
+    console.log(res);
   }
 }
 

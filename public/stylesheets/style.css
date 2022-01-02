@@ -145,5 +145,5 @@ td {
 }
 #submit-text:hover {
   text-shadow: 2px 2px #345fd6;
-  font-size: 2em;
+  /* font-size: 2em; */
 }

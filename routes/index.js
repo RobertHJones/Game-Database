@@ -99,7 +99,7 @@ router.get("/games/:id", async function (req, res) {
 
 // ADD NEW GAME
 router.post("/games", async function (req, res) {
-  const newGame = await addNewGame(req.body); // try hard coding this?
+  const newGame = await addNewGame(req.body);
   res.json({ success: true, payload: newGame });
 });
 

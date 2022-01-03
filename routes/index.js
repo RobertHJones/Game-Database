@@ -1,6 +1,6 @@
 // var express = require('express');
 import express from "express";
-var router = express.Router();
+const router = express.Router();
 
 import {
   getAllGames,
@@ -98,6 +98,12 @@ router.get("/games/:id", async function (req, res) {
 });
 
 // ADD NEW GAME
+// router.post("/games", async function ({ body }, res) {
+//   const { title, rating, genre, year, developer } = body;
+//   const newGame = await addNewGame(title, rating, genre, year, developer);
+//   res.json({ success: true, payload: newGame });
+// });
+
 router.post("/games", async function (req, res) {
   const newGame = await addNewGame(req.body);
   res.json({ success: true, payload: newGame });

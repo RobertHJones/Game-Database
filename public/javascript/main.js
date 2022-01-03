@@ -78,20 +78,20 @@ async function post() {
   const response = await fetch("http://localhost:3000/games", {
     method: "POST",
     headers: {
-      // Accept: "application/json",
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      title,
-      rating,
-      genre,
-      year,
-      developer,
+      Title: title,
+      Rating: rating,
+      Genre: genre,
+      Year: year,
+      Developer: developer,
     }),
   });
 
   response.json().then((data) => {
     console.log(data);
   });
+
   alert(`${title} added to database`);
 }

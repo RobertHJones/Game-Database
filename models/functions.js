@@ -51,17 +51,17 @@ export async function getGameByBand(band) {
 }
 
 // ADD NEW GAME
-export async function addNewGame(newGame, rating, genre, year, developer) {
+export async function addNewGame(title, rating, genre, year, developer) {
   const data = await query(
-    `INSERT INTO games (title) VALUES ($1);`,
-    [newGame]
+    `INSERT INTO games (title, rating, genre, year, developer) VALUES ($1, $2, $3, $4, $5);`,
+    [title, rating, genre, year, developer]
     // [rating],
     // [genre],
     // [year],
     // [developer]
   );
-  // const data = await query (`INSERT INTO games (title, rating, genre, year, developer, comments) VALUES ($1, $2, $3, $4, $5, $6);` [newGame])
-  return data;
+  // const data = await query (`INSERT INTO games (title, rating, genre, year, developer, comments) VALUES ($1, $2, $3, $4, $5, $6);`)
+  return data.rows;
 }
 // DELETE GAME
 export async function deleteGame(gameId) {

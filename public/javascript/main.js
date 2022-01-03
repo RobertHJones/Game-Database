@@ -81,17 +81,21 @@ async function post() {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      Title: title,
-      Rating: rating,
-      Genre: genre,
-      Year: year,
-      Developer: developer,
+      title: title,
+      rating: rating,
+      band: "80-100",
+      genre: genre,
+      year: year,
+      developer: developer,
+      comments: "no comment",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Red_square.svg/1024px-Red_square.svg.png",
     }),
   });
 
-  response.json().then((data) => {
-    console.log(data);
-  });
+  // response.json().then((data) => {
+  //   console.log(data);
+  // });
 
   alert(`${title} added to database`);
 }

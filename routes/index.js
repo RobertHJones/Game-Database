@@ -98,16 +98,25 @@ router.get("/games/:id", async function (req, res) {
 });
 
 // ADD NEW GAME
-router.post("/games", async function ({ body }, res) {
-  const { title, rating, genre, year, developer } = body;
-  const newGame = await addNewGame(title, rating, genre, year, developer);
+router.post("/games", async function ({ body }, res, next) {
+  const { title, rating, band, genre, year, developer, comments, image } = body;
+  const newGame = await addNewGame(
+    title,
+    rating,
+    band,
+    genre,
+    year,
+    developer,
+    comments,
+    image
+  );
   res.json({ success: true, payload: newGame });
 });
 
-router.post("/games", async function (req, res) {
-  const newGame = await addNewGame(req.body);
-  res.json({ success: true, payload: newGame });
-});
+// router.post("/games", async function (req, res) {
+//   const newGame = await addNewGame(req.body);
+//   res.json({ success: true, payload: newGame });
+// });
 
 // DELETE GAME
 router.delete("/games/:id", async function (req, res) {

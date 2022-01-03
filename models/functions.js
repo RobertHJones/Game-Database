@@ -51,10 +51,19 @@ export async function getGameByBand(band) {
 }
 
 // ADD NEW GAME
-export async function addNewGame(title, rating, genre, year, developer) {
+export async function addNewGame(
+  title,
+  rating,
+  band,
+  genre,
+  year,
+  developer,
+  comments,
+  image
+) {
   const data = await query(
-    `INSERT INTO games (title, rating, genre, year, developer) VALUES ($1, $2, $3, $4, $5);`,
-    [title, rating, genre, year, developer]
+    `INSERT INTO games (title, rating, band, genre, year, developer, comments, image) VALUES ($1, $2, $3, $4, $5, $6, $7, $8);`,
+    [title, rating, band, genre, year, developer, comments, image]
     // [rating],
     // [genre],
     // [year],

@@ -87,9 +87,8 @@ async function post() {
       genre: genre,
       year: year,
       developer: developer,
-      comments: "no comment",
-      image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Red_square.svg/1024px-Red_square.svg.png",
+      comments: "You think Rob's brain cares about your game? Just kidding!",
+      image: "https://www.elevana.com/images/blogs/Shrug.jpg",
     }),
   });
 

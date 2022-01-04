@@ -67,6 +67,20 @@ async function getGame() {
   addComment(payload[0].comments);
 }
 
+function getBand(num) {
+  if (num >= 80) {
+    return "80-100";
+  } else if (num >= 60) {
+    return "60-80";
+  } else if (num >= 40) {
+    return "40-60";
+  } else if (num >= 20) {
+    return "20-40";
+  } else {
+    return "0-20";
+  }
+}
+
 // Post request to add new game
 async function post() {
   let title = newTitle.value;
@@ -83,11 +97,12 @@ async function post() {
     body: JSON.stringify({
       title: title,
       rating: rating,
-      band: "80-100",
+      band: getBand(rating),
       genre: genre,
       year: year,
       developer: developer,
-      comments: "You think Rob's brain cares about your game? Just kidding!",
+      comments:
+        "You think Rob's brain cares about your game? Just kidding, of course it does!",
       image: "https://www.elevana.com/images/blogs/Shrug.jpg",
     }),
   });

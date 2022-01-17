@@ -7,7 +7,7 @@ import logger from "morgan";
 import indexRouter from "./routes/index.js";
 // import usersRouter from "./routes/users.js";
 
-var app = express();
+const app = express();
 
 app.use(logger("dev"));
 app.use(express.json());
@@ -18,6 +18,10 @@ app.use(express.static("public"));
 app.use("/", indexRouter);
 // app.use("/users", usersRouter);
 app.set("view engine", "jade");
+
+app.get("/", function (req, res) {
+  res.send("<h1>Hello World!</h1>");
+});
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
